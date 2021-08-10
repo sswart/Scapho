@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31521.260
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scapho.Api", "Scapho.Api\Scapho.Api.csproj", "{45E40184-6484-4D57-A55D-148853603BC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scapho.Api", "Scapho.Api\Scapho.Api.csproj", "{45E40184-6484-4D57-A55D-148853603BC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scapho.Application.Tests", "Scapho.Application.Tests\Scapho.Application.Tests.csproj", "{44D96BE1-90B5-4B62-BA1C-DF146EFB840F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scapho.Application", "Scapho.Application\Scapho.Application.csproj", "{174E256C-F252-492D-BAE1-4DC5956B4623}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{45E40184-6484-4D57-A55D-148853603BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45E40184-6484-4D57-A55D-148853603BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45E40184-6484-4D57-A55D-148853603BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D96BE1-90B5-4B62-BA1C-DF146EFB840F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D96BE1-90B5-4B62-BA1C-DF146EFB840F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D96BE1-90B5-4B62-BA1C-DF146EFB840F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D96BE1-90B5-4B62-BA1C-DF146EFB840F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174E256C-F252-492D-BAE1-4DC5956B4623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174E256C-F252-492D-BAE1-4DC5956B4623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174E256C-F252-492D-BAE1-4DC5956B4623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174E256C-F252-492D-BAE1-4DC5956B4623}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
