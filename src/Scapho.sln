@@ -5,9 +5,13 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scapho.Api", "Scapho.Api\Scapho.Api.csproj", "{45E40184-6484-4D57-A55D-148853603BC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scapho.Application.Tests", "Scapho.Application.Tests\Scapho.Application.Tests.csproj", "{44D96BE1-90B5-4B62-BA1C-DF146EFB840F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scapho.Application.Tests", "Scapho.Application.Tests\Scapho.Application.Tests.csproj", "{44D96BE1-90B5-4B62-BA1C-DF146EFB840F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scapho.Application", "Scapho.Application\Scapho.Application.csproj", "{174E256C-F252-492D-BAE1-4DC5956B4623}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scapho.Application", "Scapho.Application\Scapho.Application.csproj", "{174E256C-F252-492D-BAE1-4DC5956B4623}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5DF2E3EA-1106-41BC-9A65-1ADA48844D92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scapho.Api.Tests", "Scapho.Api.Tests\Scapho.Api.Tests.csproj", "{7AD7B5B2-EFC9-40C7-BC12-F1DE6306CCBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +31,17 @@ Global
 		{174E256C-F252-492D-BAE1-4DC5956B4623}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{174E256C-F252-492D-BAE1-4DC5956B4623}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{174E256C-F252-492D-BAE1-4DC5956B4623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD7B5B2-EFC9-40C7-BC12-F1DE6306CCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD7B5B2-EFC9-40C7-BC12-F1DE6306CCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD7B5B2-EFC9-40C7-BC12-F1DE6306CCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD7B5B2-EFC9-40C7-BC12-F1DE6306CCBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44D96BE1-90B5-4B62-BA1C-DF146EFB840F} = {5DF2E3EA-1106-41BC-9A65-1ADA48844D92}
+		{7AD7B5B2-EFC9-40C7-BC12-F1DE6306CCBB} = {5DF2E3EA-1106-41BC-9A65-1ADA48844D92}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99D69331-5924-40A0-BEF7-4552B78D5B7F}
